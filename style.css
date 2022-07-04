@@ -48,6 +48,9 @@ p{
     display:flex;
     align-items: center;
 }
+.flex-wrap{
+    flex-wrap:wrap;
+}
 
 .section-header{
     margin-left:10%;
@@ -73,7 +76,7 @@ p{
 }
 
 #exp{
-    margin-bottom: 160px;
+    margin-bottom: 100px;
     background: url("images/exp-bg.png") no-repeat;
     background-position: left ;
     background-size: 550px;
@@ -94,5 +97,33 @@ p{
 .border-light{
     border-left:8px solid #2db1ff;
 }
+.border-top-dark{
+    border-top:12px solid #2f2fcc;
+}
+.border-top-light{
+    border-top:12px solid #2db1ff;
+}
 
+
+#skill{
+
+  margin: 0 10%;  
+
+}
+#skill .section-header{
+    margin-left:0;
+}
+.card-box{
+    width:250px;
+    box-shadow: 0 5px 30px #ddd;
+    padding:15px;
+    margin:10px;
+    text-align:scenter;
+    border-radius:5px;
+    margin-bottom:30px;
+
+}
+.card-box img{
+    max-width:100px;
+}
 
