@@ -76,7 +76,7 @@ p{
 }
 
 #exp{
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     background: url("images/exp-bg.png") no-repeat;
     background-position: left ;
     background-size: 550px;
@@ -108,6 +108,7 @@ p{
 #skill{
 
   margin: 0 10%;  
+  margin-bottom:60px;
 
 }
 #skill .section-header{
@@ -125,5 +126,12 @@ p{
 }
 .card-box img{
     max-width:100px;
+}
+
+footer{
+    background: linear-gradient(to left,  #2DB1FF ,blue ,#2DB1FF);
+    padding:10px 0 5px;
+    text-align:center;
+    color:#ddd;
 }
 
