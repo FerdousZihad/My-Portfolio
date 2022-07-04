@@ -69,6 +69,30 @@ p{
     background-position: right center;
     background-size: 500px;
     margin:0;
+      
+}
+
+#exp{
+    margin-bottom: 160px;
+    background: url("images/exp-bg.png") no-repeat;
+    background-position: left ;
+    background-size: 550px;
+    background-blend-mode:lighten;
     
 }
+
+.exp-item{
+    margin:5%;
+    margin-bottom:0;
+    padding:50px 100px 30px 50px;
+    box-shadow:0 0 40px gray;
+}
+
+.border-dark{
+    border-left:8px solid #2f2fcc;
+}
+.border-light{
+    border-left:8px solid #2db1ff;
+}
+
 
