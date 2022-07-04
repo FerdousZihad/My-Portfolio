@@ -134,4 +134,18 @@ footer{
     text-align:center;
     color:#ddd;
 }
+header{
+    background: linear-gradient( #2DB1FF ,#6A4EE1);
+    padding:10px 0 5px;
+    text-align:center;
+    color:#ddd;
+    box-shadow: 0 5px 10px #2DB1FF;
+
+}
+header h2{
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+    margin:0;
+}
 
